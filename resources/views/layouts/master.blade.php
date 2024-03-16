@@ -138,10 +138,10 @@
                                             <a class="nav-link" href="{{ route('service') }}">Layanan</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="{{ route('team') }}">Blog</a>
+                                            <a class="nav-link" href="{{ route('blog') }}">Blog</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="{{ route('team') }}">Faq</a>
+                                            <a class="nav-link" href="{{ route('faq') }}">Faq</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -157,7 +157,7 @@
                                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                     <ul class="navbar-nav list-none ps-0 mb-2 mb-lg-0">
                                         <li class="nav-item">
-                                            <a class="nav-link" href="{{ route('team') }}">Portofolio</a>
+                                            <a class="nav-link" href="{{ route('portfolio') }}">Portofolio</a>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="{{ route('team') }}">Tim</a>
@@ -230,22 +230,22 @@
                         <a href="{{ route('home') }}">Home</a>
                     </li>
                     <li>
-                        <a href="{{ route('home') }}">Tentang Kami</a>
+                        <a href="{{ route('about') }}">Tentang Kami</a>
                     </li>
                     <li>
                         <a href="{{ route('service') }}">Layanan</a>
                     </li>
                     <li>
-                        <a href="{{ route('team') }}">Blog</a>
+                        <a href="{{ route('blog') }}">Blog</a>
                     </li>
                     <li>
-                        <a href="{{ route('contact') }}">Faq</a>
+                        <a href="{{ route('faq') }}">Faq</a>
                     </li>
                     <li>
-                        <a href="{{ route('team') }}">Portofolio</a>
+                        <a href="{{ route('portfolio') }}">Portofolio</a>
                     </li>
                     <li>
-                        <a href="{{ route('contact') }}">Tim</a>
+                        <a href="{{ route('team') }}">Tim</a>
                     </li>
                     <li>
                         <a href="{{ route('contact') }}">Kontak</a>

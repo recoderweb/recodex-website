@@ -4,13 +4,12 @@
     content="website development, hosting solutions, domain registration, e-commerce website, UI/UX design, programming">
 <meta name="description"
     content="Recodex offers comprehensive IT solutions for website development, hosting, domain registration, e-commerce websites, UI/UX design, and programming services.">
-<title>Recodex - Your Digital Innovation Partner</title>
+<title>Recodex | Your Digital Innovation Partner</title>
 <meta property="og:site_name" content="Recodex">
-<meta property="og:url" content="">
+<meta property="og:url" content="https://www.recodex.id/">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Recodex - Your Digital Innovation Partner">
-
-<meta name='og:image' content='img/ogg.png'>
+<meta property="og:title" content="Recodex | Your Digital Innovation Partner">
+<meta property="og:image" content="{{ asset('img/og.png') }}">
 <!-- For IE -->
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <!-- For Resposive Device -->

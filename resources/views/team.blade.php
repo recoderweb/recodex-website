@@ -66,7 +66,7 @@
                             </div>
                         </div>
                         <div class="team-content">
-                            <p>Front-End Developer</p>
+                            <p>Chief Executive Officer</p>
                             <h3 class="sect-title-two"><a href="#">Zachran Razendra</a></h3>
                         </div>
                     </div>
@@ -91,7 +91,7 @@
                             </div>
                         </div>
                         <div class="team-content">
-                            <p>Back-End Developer</p>
+                            <p>Chief Technology Officer</p>
                             <h3 class="sect-title-two"><a href="">M. Taufiq Shidiq</a></h3>
                         </div>
                     </div>
@@ -171,10 +171,30 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="row gx-4 gx-xxl-5">
-                <div class="col-lg-12 text-center pt-15" data-aos="fade-up" data-aos-delay="200">
-                    <a class="theme_btn" href="#">Selengkapnya</a>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="team-style-two text-center mb-45">
+                        <div class="team-thumb">
+                            <a href="#"><img src="{{ asset('img/team/team-7e.jpg') }}" alt="img"></a>
+                            <div class="team-social-two">
+                                <a href="#">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fab fa-youtube"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="team-content">
+                            <p>Front-End Developer</p>
+                            <h3 class="sect-title-two"><a href="#">Diky Hernawan</a></h3>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

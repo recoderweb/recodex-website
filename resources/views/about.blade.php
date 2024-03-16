@@ -90,8 +90,8 @@
             <div class="row gx-4 gx-xxl-5 align-items-center">
                 <div class="col-lg-7" data-aos="fade-right" data-aos-delay="100">
                     <div class="about-img-wrapper-four position-relative mb-45">
-                        <img class="main-img" src="{{ asset('img/about/about-3d.jpg') }}" alt="img">
-                        <img class="main-img-two d-none d-xl-inline-block" src="{{ asset('img/about/about-4d.jpg') }}"
+                        <img class="main-img" src="{{ asset('img/about/about-3d.png') }}" alt="img">
+                        <img class="main-img-two d-none d-xl-inline-block" src="{{ asset('img/about/about-4d.png') }}"
                             alt="img">
                         <img class="shape-one" src="{{ asset('img/shape/line-round-2a.svg') }}" alt="shape">
                     </div>
@@ -101,7 +101,7 @@
                         <h2 class="mb-15">Tentang Kami</h2>
                         <p>Di Recodex, kami percaya pada kekuatan transformasi digital untuk mengangkat bisnis ke tingkat
                             yang lebih tinggi. Sebagai penyedia layanan pengembangan website terkemuka, kami berspesialisasi
-                            dalam menciptakan solusi digital khusus yang disesuaikan dengan kebutuhan Anda.}</p>
+                            dalam menciptakan solusi digital khusus yang disesuaikan dengan kebutuhan Anda.</p>
                         <ul class="block-box box-two list-none">
                             <li>
                                 <a href="#">
