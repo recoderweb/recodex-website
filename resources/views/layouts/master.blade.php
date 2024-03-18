@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en">
+<html class="no-js" lang="id">
 
 <head>
 
@@ -119,14 +119,15 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="col-xl-8 col-lg-8 d-none d-lg-block">
+                        <div class="col-xl-12 col-lg-10 d-none d-lg-block">
                             <nav class="navbar navbar-expand-lg">
                                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                                     aria-expanded="false" aria-label="Toggle navigation">
                                     <span class="navbar-toggler-icon"></span>
                                 </button>
-                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <div class="collapse navbar-collapse justify-content-center"
+                                    id="navbarSupportedContent">
                                     <ul class="navbar-nav list-none ps-0 mb-2 mb-lg-0">
                                         <li class="nav-item">
                                             <a class="nav-link" href="{{ route('home') }}">Beranda</a>
@@ -134,28 +135,44 @@
                                         <li class="nav-item">
                                             <a class="nav-link" href="{{ route('about') }}">Tentang Kami</a>
                                         </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="{{ route('service') }}">Layanan</a>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+                                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                Layanan
+                                            </a>
+                                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                <li>
+                                                    <a class="dropdown-item" href="{{ route('website') }}">
+                                                        <img src="{{ asset('img/icon/icon-18b.svg') }}" alt="icon"
+                                                            height="20" class="me-2">
+                                                        Pembuatan Website
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="{{ route('hosting') }}">
+                                                        <img src="{{ asset('img/icon/icon-19b.svg') }}" alt="icon"
+                                                            height="20" class="me-2">
+                                                        Solusi Hosting
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="{{ route('domain') }}">
+                                                        <img src="{{ asset('img/icon/icon-20b.svg') }}" alt="icon"
+                                                            height="20" class="me-2">
+                                                        Pendaftaran Domain
+                                                    </a>
+                                                </li>
+                                            </ul>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="{{ route('blog') }}">Blog</a>
                                         </li>
                                         <li class="nav-item">
+                                            <a class="nav-link" href="{{ route('blog') }}">Harga</a>
+                                        </li>
+                                        <li class="nav-item">
                                             <a class="nav-link" href="{{ route('faq') }}">Faq</a>
                                         </li>
-                                    </ul>
-                                </div>
-                            </nav>
-                        </div>
-                        <div class="col-xl-4 col-lg-4 col-6 text-end">
-                            <nav class="navbar navbar-expand-lg">
-                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                                    aria-expanded="false" aria-label="Toggle navigation">
-                                    <span class="navbar-toggler-icon"></span>
-                                </button>
-                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                    <ul class="navbar-nav list-none ps-0 mb-2 mb-lg-0">
                                         <li class="nav-item">
                                             <a class="nav-link" href="{{ route('portfolio') }}">Portofolio</a>
                                         </li>
@@ -169,6 +186,7 @@
                                 </div>
                             </nav>
                         </div>
+
                     </div>
                 </div>
             </div>
@@ -233,7 +251,7 @@
                         <a href="{{ route('about') }}">Tentang Kami</a>
                     </li>
                     <li>
-                        <a href="{{ route('service') }}">Layanan</a>
+                        <a href="{{ route('services') }}">Layanan</a>
                     </li>
                     <li>
                         <a href="{{ route('blog') }}">Blog</a>

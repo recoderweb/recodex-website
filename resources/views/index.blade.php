@@ -20,7 +20,7 @@
                             <br>
                             <span>Transform</span>
                         </h1>
-                        <a class="theme_btn" href="{{ route('home') }}">Buat Website</a>
+                        <a class="theme_btn" href="{{ route('website') }}">Buat Website</a>
                     </div>
                 </div>
             </div>
@@ -55,32 +55,32 @@
 
     <!--brand-area start-->
     <!-- <section class="brand-area brand-bg pt-25 pb-25 mt-1">
-                <div class="container">
-                    <div class="row gx-4 gx-xxl-5">
-                        <div class="brand-slider-one">
-                            <div class="brand-logo">
-                                <a href="#"><img src="{{ asset('img/brand/brand-1.svg') }}" alt="brand"></a>
-                            </div>
-                            <div class="brand-logo">
-                                <a href="#"><img src="{{ asset('img/brand/brand-2.svg') }}" alt="brand"></a>
-                            </div>
-                            <div class="brand-logo">
-                                <a href="#"><img src="{{ asset('img/brand/brand-3.svg') }}" alt="brand"></a>
-                            </div>
-                            <div class="brand-logo">
-                                <a href="#"><img src="{{ asset('img/brand/brand-4.svg') }}" alt="brand"></a>
-                            </div>
-                            <div class="brand-logo">
-                                <a href="#"><img src="{{ Asset('img/brand/brand-5.svg') }}" alt="brand"></a>
-                            </div>
-                            <div class="brand-logo">
-                                <a href="#"><img src="{{ asset('img/brand/brand-6.svg') }}" alt="brand"></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!--brand-area end-->
+                                                                                                                                                                                                                                                                    <div class="container">
+                                                                                                                                                                                                                                                                        <div class="row gx-4 gx-xxl-5">
+                                                                                                                                                                                                                                                                            <div class="brand-slider-one">
+                                                                                                                                                                                                                                                                                <div class="brand-logo">
+                                                                                                                                                                                                                                                                                    <a href="#"><img src="{{ asset('img/brand/brand-1.svg') }}" alt="brand"></a>
+                                                                                                                                                                                                                                                                                </div>
+                                                                                                                                                                                                                                                                                <div class="brand-logo">
+                                                                                                                                                                                                                                                                                    <a href="#"><img src="{{ asset('img/brand/brand-2.svg') }}" alt="brand"></a>
+                                                                                                                                                                                                                                                                                </div>
+                                                                                                                                                                                                                                                                                <div class="brand-logo">
+                                                                                                                                                                                                                                                                                    <a href="#"><img src="{{ asset('img/brand/brand-3.svg') }}" alt="brand"></a>
+                                                                                                                                                                                                                                                                                </div>
+                                                                                                                                                                                                                                                                                <div class="brand-logo">
+                                                                                                                                                                                                                                                                                    <a href="#"><img src="{{ asset('img/brand/brand-4.svg') }}" alt="brand"></a>
+                                                                                                                                                                                                                                                                                </div>
+                                                                                                                                                                                                                                                                                <div class="brand-logo">
+                                                                                                                                                                                                                                                                                    <a href="#"><img src="{{ Asset('img/brand/brand-5.svg') }}" alt="brand"></a>
+                                                                                                                                                                                                                                                                                </div>
+                                                                                                                                                                                                                                                                                <div class="brand-logo">
+                                                                                                                                                                                                                                                                                    <a href="#"><img src="{{ asset('img/brand/brand-6.svg') }}" alt="brand"></a>
+                                                                                                                                                                                                                                                                                </div>
+                                                                                                                                                                                                                                                                            </div>
+                                                                                                                                                                                                                                                                        </div>
+                                                                                                                                                                                                                                                                    </div>
+                                                                                                                                                                                                                                                                </section>
+                                                                                                                                                                                                                                            <!--brand-area end-->
 
     <!--techy-feature start-->
     <section class="techy-feature pt-150 pb-30 pt-lg-120">
@@ -91,7 +91,7 @@
                         <div class="icon"><img src="{{ asset('img/icon/icon-15b.svg') }}" alt="icon" height="80">
                         </div>
                         <h3>
-                            <a class="sect-title-two" href="{{ route('home') }}">Keahlian</a>
+                            <a class="sect-title-two" href="{{ route('about') }}">Keahlian</a>
                         </h3>
                         <p>Dengan pengalaman bertahun-tahun di industri ini, tim kami memiliki keahlian untuk menangani
                             proyek yang paling rumit sekalipun. Kami selalu menjadi yang terdepan, memastikan website Anda
@@ -103,7 +103,7 @@
                         <div class="icon"><img src="{{ asset('img/icon/icon-16b.svg') }}" alt="icon" height="80">
                         </div>
                         <h3>
-                            <a class="sect-title-two" href="{{ route('home') }}">Inovasi</a>
+                            <a class="sect-title-two" href="{{ route('about') }}">Inovasi</a>
                         </h3>
                         <p>Inovasi adalah inti dari semua yang kami lakukan. Kami terus mengeksplorasi tren dan teknologi
                             baru untuk memastikan website Anda menonjol di semua platform digital yang ramai.</p>
@@ -115,7 +115,7 @@
                                 height="80">
                         </div>
                         <h3>
-                            <a class="sect-title-two" href="{{ route('home') }}">Kualitas</a>
+                            <a class="sect-title-two" href="{{ route('about') }}">Kualitas</a>
                         </h3>
                         <p>Kualitas adalah prioritas utama kami. Dari konsep awal hingga pengiriman akhir, kami menjunjung
                             standar kualitas dan pengerjaan tertinggi, memastikan website Anda melebihi ekspektasi.</p>
@@ -148,7 +148,7 @@
                         <p>Di Recodex, kami percaya pada kekuatan transformasi digital untuk mengangkat bisnis ke tingkat
                             yang lebih tinggi. Sebagai penyedia layanan pengembangan website terkemuka, kami berspesialisasi
                             dalam menciptakan solusi digital khusus yang disesuaikan dengan kebutuhan Anda.</p>
-                        <a class="theme_btn mt-55" href="{{ route('home') }}">Selengkapnya</a>
+                        <a class="theme_btn mt-55" href="{{ route('about') }}">Selengkapnya</a>
                     </div>
                 </div>
                 <div class="col-xxl-3 col-xl-4 order-3" data-aos="fade-left" data-aos-delay="100">
@@ -178,6 +178,109 @@
     </section>
     <!--about-techy end-->
 
+    <!--teachy-price start-->
+    <section id="price" class="techy-price price-bg pt-50 pb-50 pt-lg-60">
+        <div class="container">
+            <div class="row gx-4 gx-xxl-5">
+                <div class="col-lg-12">
+                    <div class="section-title text-center mb-55">
+                        <h3 class="sect-title mb-25" data-aos="fade-up">Harga Terbaik Jasa Pembuatan Website</h3>
+                        <p data-aos="fade-up" data-aos-delay="100">Kami siap membantu mengembangkan bisnis anda di
+                            internet!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row gx-4 gx-xxl-5">
+                <div class="col-lg-4 col-md-6" data-aos="fade-left" data-aos-delay="100">
+                    <div class="plan mb-45">
+                        <div class="plan__header">
+                            <h3>Personal</h3>
+                            <p>Cocok untuk personal branding atau blog Anda</p>
+                        </div>
+                        <div class="plan__price">
+                            <sub>Rp</sub>
+                            2,999,000
+                        </div>
+                        <div class="plan__btn">
+                            <a class="price-btn" href="#">Pilih Paket</a>
+                        </div>
+                        <ul class="plan__body list-none">
+                            <li>3 Halaman</li>
+                            <li>Performa Standar</li>
+                            <li>Domain Gratis (senilai Rp147.900)</li>
+                            <li>Hosting Gratis</li>
+                            <li>10 Email Bisnis</li>
+                            <li>Backup Mingguan</li>
+                            <li>SSL Gratis Unlimited</li>
+                            <li>SEO Friendly</li>
+                            <li>1x Maintenance Gratis</li>
+                            <li>Google Index</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-left" data-aos-delay="200">
+                    <div class="plan mb-45">
+                        <div class="plan__header">
+                            <h3>Bisnis</h3>
+                            <p>Paket lengkap untuk bisnis, portal berita, atau toko online</p>
+                        </div>
+                        <div class="plan__price">
+                            <sub>Rp</sub>
+                            4,899,000
+                        </div>
+                        <div class="plan__btn">
+                            <a class="price-btn" href="#">Pilih Paket</a>
+                        </div>
+                        <ul class="plan__body list-none">
+                            <li>5 Halaman</li>
+                            <li>Performa Meningkat (hingga 5x)</li>
+                            <li>Domain Gratis (senilai Rp147.900)</li>
+                            <li>Hosting Gratis</li>
+                            <li>15 Email Bisnis</li>
+                            <li>Backup Harian (senilai Rp274.020)</li>
+                            <li>SSL Gratis Unlimited</li>
+                            <li>SEO Friendly</li>
+                            <li>2x Maintenance Gratis</li>
+                            <li>Google Index & Analytics</li>
+                            <li>CDN Gratis</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-left" data-aos-delay="300">
+                    <div class="plan mb-45">
+                        <div class="plan__header">
+                            <h3>Premium</h3>
+                            <p>Performa website yang lebih optimal & powerful resource</p>
+                        </div>
+                        <div class="plan__price">
+                            <sub>Rp</sub>
+                            7,499,000
+                        </div>
+                        <div class="plan__btn">
+                            <a class="price-btn" href="#">Pilih Paket</a>
+                        </div>
+                        <ul class="plan__body list-none">
+                            <li>12 Halaman</li>
+                            <li>Performa Maksimal (hingga 10x)</li>
+                            <li>Domain Gratis (senilai Rp147.900)</li>
+                            <li>Hosting Gratis</li>
+                            <li>Email Bisnis Gratis</li>
+                            <li>Backup Harian (senilai Rp274.020)</li>
+                            <li>SSL Gratis Unlimited</li>
+                            <li>SEO Friendly</li>
+                            <li>3x Maintenance Gratis</li>
+                            <li>Google Index & Analytics</li>
+                            <li>CDN Gratis</li>
+                            <li>Bandwith Unlimited</li>
+                            <li>Alamat IP Dedicated</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--teachy-price end-->
+
     <!--our-services start-->
     <section class="our-services service-bg-two pt-95 pb-50 pt-lg-50 pb-lg-15">
         <div class="container">
@@ -197,7 +300,7 @@
                             src="{{ asset('img/shape/line-round-5b.svg') }}" alt="shape">
                         <img src="{{ asset('img/icon/icon-18b.svg') }}" alt="icon" height="80">
                         <h2>
-                            <a class="sect-title-two" href="{{ route('service') }}">Pembuatan Website</a>
+                            <a class="sect-title-two" href="{{ route('website') }}">Pembuatan Website</a>
                         </h2>
                         <p>Dari desain yang sederhana hingga fungsionalitas yang lancar, kami menciptakan website yang
                             meninggalkan kesan mendalam. Tim kami bekerja tanpa kenal lelah untuk memastikan website Anda
@@ -210,7 +313,7 @@
                             src="{{ asset('img/shape/line-round-5b.svg') }}" alt="shape">
                         <img src="{{ asset('img/icon/icon-19b.svg') }}" alt="icon" height="80">
                         <h2>
-                            <a class="sect-title-two" href="{{ route('service') }}">Solusi Hosting</a>
+                            <a class="sect-title-two" href="{{ route('hosting') }}">Solusi Hosting</a>
                         </h2>
                         <p>Solusi hosting kami dirancang untuk memberi Anda keandalan dan keamanan yang dibutuhkan situs web
                             Anda. Dengan Recodex, Anda dapat yakin bahwa website Anda berada di tangan yang aman.</p>
@@ -222,7 +325,7 @@
                             src="{{ asset('img/shape/line-round-5b.svg') }}" alt="shape">
                         <img src="{{ asset('img/icon/icon-20b.svg') }}" alt="icon" height="80">
                         <h2>
-                            <a class="sect-title-two" href="{{ route('service') }}">PendaftaranDomain</a>
+                            <a class="sect-title-two" href="{{ route('domain') }}">Pendaftaran Domain</a>
                         </h2>
                         <p>Temukan nama domain yang sempurna untuk bisnis Anda dengan layanan pendaftaran domain kami. Tim
                             kami akan membantu Anda mendapatkan domain yang selaras dengan merek Anda dan membedakan Anda
@@ -235,7 +338,7 @@
                             src="{{ asset('img/shape/line-round-5b.svg') }}" alt="shape">
                         <img src="{{ asset('img/icon/icon-21b.svg') }}" alt="icon" height="80">
                         <h2>
-                            <a class="sect-title-two" href="{{ route('service') }}">Website Toko Online</a>
+                            <a class="sect-title-two" href="{{ route('services') }}">Website Toko Online</a>
                         </h2>
                         <p>Siapkan toko online Anda dengan mudah dan mulailah menjual produk atau layanan Anda secara
                             online. Solusi Website Toko Online kami dirancang untuk memaksimalkan penjualan Anda dan
@@ -248,7 +351,7 @@
                             src="{{ asset('img/shape/line-round-5b.svg') }}" alt="shape">
                         <img src="{{ asset('img/icon/icon-22b.svg') }}" alt="icon" height="80">
                         <h2>
-                            <a class="sect-title-two" href="{{ route('service') }}">Desain UI/UX</a>
+                            <a class="sect-title-two" href="{{ route('services') }}">Desain UI/UX</a>
                         </h2>
                         <p>Ciptakan pengalaman pengguna yang lancar dan intuitif dengan layanan desain UI/UX kami. Kami
                             fokus pada pembuatan antarmuka yang tidak hanya menarik secara visual tetapi juga sangat
@@ -261,7 +364,7 @@
                             src="{{ asset('img/shape/line-round-5b.svg') }}" alt="shape">
                         <img src="{{ asset('img/icon/icon-23b.svg') }}" alt="icon" height="80">
                         <h2>
-                            <a class="sect-title-two" href="{{ route('service') }}">Pemrograman</a>
+                            <a class="sect-title-two" href="{{ route('services') }}">Pemrograman</a>
                         </h2>
                         <p>Jika Anda memerlukan aplikasi web khusus atau solusi backend yang kompleks, tim pemrogram ahli
                             kami siap membantu Anda. Kami menggunakan bahasa pemrograman dan kerangka kerja terbaru untuk
@@ -311,9 +414,9 @@
                         </div>
                         <div class="case-content">
                             <span>Web Development</span>
-                            <h3><a class="sect-title-two" href="project-details.html">Alfa5 Aviation</a></h3>
+                            <h3><a class="sect-title-two" href="https://alfa5aviation.com">Alfa5 Aviation</a></h3>
                             <p>Membuat Website Profil Perusahaan untuk Alfa5 Aviation.</p>
-                            <a class="case-btn" href=""><i class="bi bi-arrow-up-right"></i></a>
+                            <a class="case-btn" href="https://alfa5aviation.com"><i class="bi bi-arrow-up-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -371,9 +474,9 @@
                         </div>
                         <div class="case-content">
                             <span>Web Development</span>
-                            <h3><a class="sect-title-two" href="project-details.html">Alfalimasatu</a></h3>
+                            <h3><a class="sect-title-two" href="https://alfalimasatu.id">Alfalimasatu</a></h3>
                             <p>Membuat Website Profil Perusahaan untuk Alfalimasatu.</p>
-                            <a class="case-btn" href="project-details.html"><i class="bi bi-arrow-up-right"></i></a>
+                            <a class="case-btn" href="https://alfalimasatu.id"><i class="bi bi-arrow-up-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -384,9 +487,9 @@
                         </div>
                         <div class="case-content">
                             <span>Web Development</span>
-                            <h3><a class="sect-title-two" href="project-details.html">Blueverizon</a></h3>
+                            <h3><a class="sect-title-two" href="https://blueverizon.com">Blueverizon</a></h3>
                             <p>Membuat Website Profil Perusahaan untuk Blueverizon.</p>
-                            <a class="case-btn" href="project-details.html"><i class="bi bi-arrow-up-right"></i></a>
+                            <a class="case-btn" href="https://blueverizon.com"><i class="bi bi-arrow-up-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -420,17 +523,8 @@
                             <p>Front-End Developer</p>
                             <h3 class="sect-title-two"><a href="#">Zachran Razendra</a></h3>
                             <div class="team-social">
-                                <a href="#">
-                                    <i class="fab fa-facebook-f"></i>
-                                </a>
-                                <a href="#">
-                                    <i class="fab fa-twitter"></i>
-                                </a>
-                                <a href="#">
-                                    <i class="fab fa-linkedin-in"></i>
-                                </a>
-                                <a href="#">
-                                    <i class="fab fa-youtube"></i>
+                                <a href="https://www.instagram.com/zachranraze/">
+                                    <i class="fab fa-instagram"></i>
                                 </a>
                             </div>
                         </div>
@@ -443,17 +537,8 @@
                             <p>Back-End Developer</p>
                             <h3 class="sect-title-two"><a href="#">M.Taufiq Shidiq</a></h3>
                             <div class="team-social">
-                                <a href="#">
-                                    <i class="fab fa-facebook-f"></i>
-                                </a>
-                                <a href="#">
-                                    <i class="fab fa-twitter"></i>
-                                </a>
-                                <a href="#">
-                                    <i class="fab fa-linkedin-in"></i>
-                                </a>
-                                <a href="#">
-                                    <i class="fab fa-youtube"></i>
+                                <a href="https://www.instagram.com/shantaufiq/">
+                                    <i class="fab fa-instagram"></i>
                                 </a>
                             </div>
                         </div>
@@ -461,22 +546,13 @@
                 </div>
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
                     <div class="team-style-one text-center mb-45">
-                        <a href="#"><img src="{{ asset('img/team/team-nabila.jpg') }}" alt="img"></a>
+                        <a href="#"><img src="{{ asset('img/team/team-taufiq.jpg') }}" alt="img"></a>
                         <div class="team-content">
                             <p>Project Manager</p>
                             <h3 class="sect-title-two"><a href="#">Michael Patriot Napitupulu</a></h3>
                             <div class="team-social">
-                                <a href="#">
-                                    <i class="fab fa-facebook-f"></i>
-                                </a>
-                                <a href="#">
-                                    <i class="fab fa-twitter"></i>
-                                </a>
-                                <a href="#">
-                                    <i class="fab fa-linkedin-in"></i>
-                                </a>
-                                <a href="#">
-                                    <i class="fab fa-youtube"></i>
+                                <a href="https://www.instagram.com/michaelnapitupuluu/">
+                                    <i class="fab fa-instagram"></i>
                                 </a>
                             </div>
                         </div>
@@ -485,7 +561,7 @@
             </div>
             <div class="row gx-4 gx-xxl-5">
                 <div class="col-lg-12 text-center pt-15" data-aos="fade-up" data-aos-delay="200">
-                    <a class="theme_btn" href="#">Selengkapnya</a>
+                    <a class="theme_btn" href="{{ route('team') }}">Selengkapnya</a>
                 </div>
             </div>
         </div>

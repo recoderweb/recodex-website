@@ -2629,7 +2629,7 @@ ul.breadcrumb li.active {
   font-family: "ClashDisplay-Bold";
   font-weight: 700;
   line-height: 1.21;
-  margin-bottom: 62px;
+  margin-bottom: 20px;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
   .main-title-two {
@@ -5952,6 +5952,9 @@ ul.slick-dots li.slick-active {
 .sub-form button:hover {
   background: #61892f;
 }
+.sub-form button.domain {
+  width: auto;
+}
 
 .contact-form .input-box {
   position: relative;
@@ -6396,7 +6399,7 @@ ul.slick-dots li.slick-active {
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
 }
-.plan__footer .price-btn {
+.plan__btn .price-btn {
   color: white;
   font-size: 17px;
   text-transform: uppercase;
@@ -6406,7 +6409,7 @@ ul.slick-dots li.slick-active {
   border-radius: 5px;
   display: inline-block;
   text-align: center;
-  margin-top: 26px;
+  margin-bottom: 26px;
 }
 .plan:hover {
   background: #61892f;
