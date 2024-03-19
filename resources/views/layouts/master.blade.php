@@ -132,8 +132,41 @@
                                         <li class="nav-item">
                                             <a class="nav-link" href="{{ route('home') }}">Beranda</a>
                                         </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="{{ route('about') }}">Tentang Kami</a>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+                                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                Tentang Kami
+                                            </a>
+                                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                <li>
+                                                    <a class="dropdown-item" href="{{ route('about') }}">
+                                                        <img src="{{ asset('img/icon/icon-18b.svg') }}" alt="icon"
+                                                            height="20" class="me-2">
+                                                        Profil
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="{{ route('team') }}">
+                                                        <img src="{{ asset('img/icon/icon-18b.svg') }}" alt="icon"
+                                                            height="20" class="me-2">
+                                                        Tim
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="{{ route('faq') }}">
+                                                        <img src="{{ asset('img/icon/icon-19b.svg') }}" alt="icon"
+                                                            height="20" class="me-2">
+                                                        FAQ
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="{{ route('blog') }}">
+                                                        <img src="{{ asset('img/icon/icon-20b.svg') }}"
+                                                            alt="icon" height="20" class="me-2">
+                                                        Blog
+                                                    </a>
+                                                </li>
+                                            </ul>
                                         </li>
                                         <li class="nav-item dropdown">
                                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
@@ -143,41 +176,32 @@
                                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                                 <li>
                                                     <a class="dropdown-item" href="{{ route('website') }}">
-                                                        <img src="{{ asset('img/icon/icon-18b.svg') }}" alt="icon"
-                                                            height="20" class="me-2">
+                                                        <img src="{{ asset('img/icon/icon-18b.svg') }}"
+                                                            alt="icon" height="20" class="me-2">
                                                         Pembuatan Website
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a class="dropdown-item" href="{{ route('hosting') }}">
-                                                        <img src="{{ asset('img/icon/icon-19b.svg') }}" alt="icon"
-                                                            height="20" class="me-2">
+                                                        <img src="{{ asset('img/icon/icon-19b.svg') }}"
+                                                            alt="icon" height="20" class="me-2">
                                                         Solusi Hosting
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a class="dropdown-item" href="{{ route('domain') }}">
-                                                        <img src="{{ asset('img/icon/icon-20b.svg') }}" alt="icon"
-                                                            height="20" class="me-2">
+                                                        <img src="{{ asset('img/icon/icon-20b.svg') }}"
+                                                            alt="icon" height="20" class="me-2">
                                                         Pendaftaran Domain
                                                     </a>
                                                 </li>
                                             </ul>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="{{ route('blog') }}">Blog</a>
-                                        </li>
-                                        <li class="nav-item">
                                             <a class="nav-link" href="{{ route('blog') }}">Harga</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="{{ route('faq') }}">Faq</a>
-                                        </li>
-                                        <li class="nav-item">
                                             <a class="nav-link" href="{{ route('portfolio') }}">Portofolio</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="{{ route('team') }}">Tim</a>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="{{ route('contact') }}">Kontak</a>
@@ -254,16 +278,7 @@
                         <a href="{{ route('services') }}">Layanan</a>
                     </li>
                     <li>
-                        <a href="{{ route('blog') }}">Blog</a>
-                    </li>
-                    <li>
-                        <a href="{{ route('faq') }}">Faq</a>
-                    </li>
-                    <li>
                         <a href="{{ route('portfolio') }}">Portofolio</a>
-                    </li>
-                    <li>
-                        <a href="{{ route('team') }}">Tim</a>
                     </li>
                     <li>
                         <a href="{{ route('contact') }}">Kontak</a>

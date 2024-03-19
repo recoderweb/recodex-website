@@ -12,13 +12,9 @@
             <div class="row gx-4 gx-xxl-5 align-items-center">
                 <div class="col-xl-6 col-md-7">
                     <div class="theme__content__two text-md-start text-center">
-                        <h4 class="hero-sub-title mb-25">Buat Website Anda Bersama Kami!</h4>
+                        <h4 class="hero-sub-title mb-25"><span class="text-theme">Recode, Innovate, Transform</span></h4>
                         <h1 class="main-title-two">
-                            <span>Recode</span>
-                            <br>
-                            <span>Innovate</span>
-                            <br>
-                            <span>Transform</span>
+                            Jasa Pembuatan Website Terpercaya!
                         </h1>
                         <a class="theme_btn" href="{{ route('website') }}">Buat Website</a>
                     </div>
@@ -53,42 +49,14 @@
     </div>
     <!--theme-banner-two end-->
 
-    <!--brand-area start-->
-    <!-- <section class="brand-area brand-bg pt-25 pb-25 mt-1">
-                                                                                                                                                                                                                                                                    <div class="container">
-                                                                                                                                                                                                                                                                        <div class="row gx-4 gx-xxl-5">
-                                                                                                                                                                                                                                                                            <div class="brand-slider-one">
-                                                                                                                                                                                                                                                                                <div class="brand-logo">
-                                                                                                                                                                                                                                                                                    <a href="#"><img src="{{ asset('img/brand/brand-1.svg') }}" alt="brand"></a>
-                                                                                                                                                                                                                                                                                </div>
-                                                                                                                                                                                                                                                                                <div class="brand-logo">
-                                                                                                                                                                                                                                                                                    <a href="#"><img src="{{ asset('img/brand/brand-2.svg') }}" alt="brand"></a>
-                                                                                                                                                                                                                                                                                </div>
-                                                                                                                                                                                                                                                                                <div class="brand-logo">
-                                                                                                                                                                                                                                                                                    <a href="#"><img src="{{ asset('img/brand/brand-3.svg') }}" alt="brand"></a>
-                                                                                                                                                                                                                                                                                </div>
-                                                                                                                                                                                                                                                                                <div class="brand-logo">
-                                                                                                                                                                                                                                                                                    <a href="#"><img src="{{ asset('img/brand/brand-4.svg') }}" alt="brand"></a>
-                                                                                                                                                                                                                                                                                </div>
-                                                                                                                                                                                                                                                                                <div class="brand-logo">
-                                                                                                                                                                                                                                                                                    <a href="#"><img src="{{ Asset('img/brand/brand-5.svg') }}" alt="brand"></a>
-                                                                                                                                                                                                                                                                                </div>
-                                                                                                                                                                                                                                                                                <div class="brand-logo">
-                                                                                                                                                                                                                                                                                    <a href="#"><img src="{{ asset('img/brand/brand-6.svg') }}" alt="brand"></a>
-                                                                                                                                                                                                                                                                                </div>
-                                                                                                                                                                                                                                                                            </div>
-                                                                                                                                                                                                                                                                        </div>
-                                                                                                                                                                                                                                                                    </div>
-                                                                                                                                                                                                                                                                </section>
-                                                                                                                                                                                                                                            <!--brand-area end-->
-
     <!--techy-feature start-->
     <section class="techy-feature pt-150 pb-30 pt-lg-120">
         <div class="container">
             <div class="row gx-4 gx-xxl-5 justify-content-center">
                 <div class="col-lg-4 col-md-6" data-aos="fade-up">
                     <div class="feature-style-three text-center mb-45">
-                        <div class="icon"><img src="{{ asset('img/icon/icon-15b.svg') }}" alt="icon" height="80">
+                        <div class="icon">
+                            <img src="{{ asset('img/icon/icon-15b.svg') }}" alt="icon" height="80">
                         </div>
                         <h3>
                             <a class="sect-title-two" href="{{ route('about') }}">Keahlian</a>
@@ -111,8 +79,7 @@
                 </div>
                 <div class="col-lg-4 col-md-8" data-aos="fade-rup" data-aos-delay="200">
                     <div class="feature-style-three text-center mb-45">
-                        <div class="icon"><img src="{{ asset('img/icon/icon-17b.svg') }}" alt="icon"
-                                height="80">
+                        <div class="icon"><img src="{{ asset('img/icon/icon-17b.svg') }}" alt="icon" height="80">
                         </div>
                         <h3>
                             <a class="sect-title-two" href="{{ route('about') }}">Kualitas</a>
@@ -143,7 +110,7 @@
                 </div>
                 <div class="col-xxl-4 col-xl-4 col-md-6  order-1" data-aos="fade-up" data-aos-delay="100">
                     <div class="block-style-three mb-45">
-                        <h6 class="sub-title mb-20">Tentang Kami</h6>
+                        <h6 class="sub-title mb-20"><span class="text-theme">Tentang Kami</span></h6>
                         <h2 class="sect-title mb-15">Mitra Anda dalam Inovasi Digital</h2>
                         <p>Di Recodex, kami percaya pada kekuatan transformasi digital untuk mengangkat bisnis ke tingkat
                             yang lebih tinggi. Sebagai penyedia layanan pengembangan website terkemuka, kami berspesialisasi
@@ -184,9 +151,12 @@
             <div class="row gx-4 gx-xxl-5">
                 <div class="col-lg-12">
                     <div class="section-title text-center mb-55">
-                        <h3 class="sect-title mb-25" data-aos="fade-up">Harga Terbaik Jasa Pembuatan Website</h3>
-                        <p data-aos="fade-up" data-aos-delay="100">Kami siap membantu mengembangkan bisnis anda di
-                            internet!</p>
+                        <h3 class="sect-title mb-25" data-aos="fade-up">
+                            Harga Terbaik Jasa Pembuatan Website
+                        </h3>
+                        <p data-aos="fade-up" data-aos-delay="100">
+                            Kami siap membantu mengembangkan bisnis anda di internet!
+                        </p>
                     </div>
                 </div>
             </div>
@@ -376,6 +346,7 @@
     </section>
     <!--our-services end-->
 
+
     <!--latest-case-work start-->
     <section class="latest-case-work pt-145 pb-150 pt-lg-60 pb-lg-120">
         <img class="case-shape shape-1b d-none d-lg-inline-block" src="{{ asset('img/shape/star-3b.svg') }}"
@@ -390,9 +361,12 @@
             <div class="row gx-4 gx-xxl-5 align-items-center">
                 <div class="col-xl-5 col-lg-6 col-md-8">
                     <div class="section-title mb-55 text-md-start text-center">
-                        <h6 class="sub-title mb-20" data-aos="fade-up">Portofolio</h6>
-                        <h3 class="sect-title mb-25" data-aos="fade-up" data-aos-delay="100">Lihat beberapa
-                            portofolio terbaik kami</h3>
+                        <h6 class="sub-title mb-20" data-aos="fade-up">
+                            <span class="text-theme">Portofolio</span>
+                        </h6>
+                        <h3 class="sect-title mb-25" data-aos="fade-up" data-aos-delay="100">
+                            Lihat beberapa portofolio terbaik kami
+                        </h3>
                     </div>
                 </div>
                 <div class="col-xl-7 col-lg-6 col-md-4 d-flex justify-content-md-end justify-content-center pb-40">
@@ -497,74 +471,4 @@
         </div>
     </section>
     <!--latest-case-work end-->
-
-    <!--techy-team start-->
-    <section class="gradient-bg techy-team pt-210 pt-lg-180 pt-sm-60 pb-100 pb-lg-55">
-        <img class="team-shape shape-1b" src="{{ asset('img/shape/star-3b.svg') }}" alt="shape">
-        <img class="team-shape shape-2b" src="{{ asset('img/shape/star-4b.svg') }}" alt="shape">
-        <img class="team-shape shape-3b" src="{{ asset('img/shape/star-2.svg') }}" alt="shape">
-        <img class="team-shape shape-4b" src="{{ asset('img/shape/star-5b.svg') }}" alt="shape">
-        <img class="team-shape shape-5b" src="{{ asset('img/shape/star-5b.svg') }}" alt="shape">
-        <img class="team-shape shape-6b" src="{{ asset('img/shape/line-round-6b.svg') }}" alt="shape">
-        <div class="container">
-            <div class="row gx-4 gx-xxl-5">
-                <div class="col-lg-12">
-                    <div class="section-title text-center mb-55">
-                        <h6 class="sub-title mb-20">Tim</h6>
-                        <h2 class="sect-title">Anggota Tim Ahli</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row gx-4 gx-xxl-5 justify-content-center">
-                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                    <div class="team-style-one text-center mb-45">
-                        <a href="#"><img src="{{ asset('img/team/team-zachran.jpg') }}" alt="img"></a>
-                        <div class="team-content">
-                            <p>Front-End Developer</p>
-                            <h3 class="sect-title-two"><a href="#">Zachran Razendra</a></h3>
-                            <div class="team-social">
-                                <a href="https://www.instagram.com/zachranraze/">
-                                    <i class="fab fa-instagram"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                    <div class="team-style-one text-center mb-45">
-                        <a href="#"><img src="{{ asset('img/team/team-taufiq.jpg') }}" alt="img"></a>
-                        <div class="team-content">
-                            <p>Back-End Developer</p>
-                            <h3 class="sect-title-two"><a href="#">M.Taufiq Shidiq</a></h3>
-                            <div class="team-social">
-                                <a href="https://www.instagram.com/shantaufiq/">
-                                    <i class="fab fa-instagram"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                    <div class="team-style-one text-center mb-45">
-                        <a href="#"><img src="{{ asset('img/team/team-taufiq.jpg') }}" alt="img"></a>
-                        <div class="team-content">
-                            <p>Project Manager</p>
-                            <h3 class="sect-title-two"><a href="#">Michael Patriot Napitupulu</a></h3>
-                            <div class="team-social">
-                                <a href="https://www.instagram.com/michaelnapitupuluu/">
-                                    <i class="fab fa-instagram"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row gx-4 gx-xxl-5">
-                <div class="col-lg-12 text-center pt-15" data-aos="fade-up" data-aos-delay="200">
-                    <a class="theme_btn" href="{{ route('team') }}">Selengkapnya</a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--techy-team end-->
 @endsection
